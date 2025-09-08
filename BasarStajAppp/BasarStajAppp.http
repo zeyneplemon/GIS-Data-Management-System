@@ -1,0 +1,6 @@
+@BasarStajAppp_HostAddress = http://localhost:5033
+
+GET {{BasarStajAppp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
