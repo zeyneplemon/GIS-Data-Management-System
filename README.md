@@ -12,7 +12,7 @@ The video explanation of the project can be viewed [here](https://drive.google.c
 
 - Full CRUD API for geospatial data (Points, WKT geometries)
 
-- Dual data access layer — ADO.NET for raw SQL control + Entity Framework Core for clean ORM workflows
+- Entity Framework Core for clean ORM workflows
 
 - PostGIS integration via NetTopologySuite for spatial geometry processing
 
