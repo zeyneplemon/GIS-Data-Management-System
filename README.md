@@ -30,7 +30,7 @@ The video explanation of the project can be viewed [here](https://drive.google.c
 | ------------- | ------------- |
 | Backend   | .NET 7 Web API |
 | ORM  | Entity Framework Core  |
-| Raw SQL   | ADO.NET + Npgsql |
+| Raw SQL   | Npgsql |
 | Database  | PostgreSQL + PostGIS  |
 | Spatial Processing  | NetTopologySuite |
 | Frontend Map   | OpenLayers |
@@ -46,7 +46,7 @@ BasarStajApp/
 ├── Entities/           # EF Core entity models
 ├── Repositories/
 │   ├── EFCore/         # Entity Framework data layer
-│   └── ADO/            # ADO.NET data layer
+│
 ├── Services/           # Business logic
 ├── Migrations/         # EF Core migrations
 └── Data/
@@ -98,11 +98,6 @@ Navigate to https://localhost:{port}/swagger to explore and test all endpoints.
 
 
 
-## 🗄️ Data Access Layers
-This project implements two parallel data access strategies, demonstrating both approaches:
-
-1. **ADO.NET** — manual SQL queries with Npgsql, custom data mapping, full control over query execution.
-2. **Entity Framework Core** — code-first migrations, DbContext with PostGIS support via NetTopologySuite, clean repository pattern.
 
 ## 🌍 Map Visualization
 
